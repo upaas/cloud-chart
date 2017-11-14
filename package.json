@@ -1,5 +1,5 @@
 {
-  "name": "talent-ui-webim",
+  "name": "cloud-chart",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "license": "MIT",
@@ -44,17 +44,7 @@
     "@beisen/base-button": "^0.1.24",
     "@beisen/common-mount": "^0.0.32",
     "@beisen/es6-promise-debounce": "^0.0.3",
-    "@beisen/loading": "^0.1.39",
-    "@beisen/search": "^0.1.57",
-    "@beisen/tab-component": "^0.1.73",
     "@beisen/talent-ui-component-webpack-config": "^1.0.3",
-    "@beisen/text-box": "^0.1.74",
-    "@beisen/tool-tip": "^0.1.35",
-    "@beisen/user-selector": "^0.1.95",
-    "es6-promise-debounce": "^1.0.1",
-    "global": "^4.3.2",
-    "pinyin": "^2.8.3",
-    "prop-types": "^15.5.10",
-    "react-draggable": "^3.0.3"
+    "es6-promise-debounce": "^1.0.1"
   }
 }

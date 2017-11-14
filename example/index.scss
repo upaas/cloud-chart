@@ -1,0 +1,36 @@
+.demo{
+    position: relative;
+    width: 356px;
+    height: 356px;
+    border: 1px solid #e4e;
+    .medium-circle{
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        width: 237px;
+        height: 237px;
+        border-radius: 50%;
+        border:1px solid rebeccapurple;
+    }
+    .large-circle{
+        width: 356px;
+        height: 356px;
+        border:1px solid green;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .spot{
+        position: absolute;
+        background: rgb(143, 46, 46);
+        border-radius: 50%;
+    }
+    .center-spot{
+        position: absolute;
+        background: rgb(143, 46, 46);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        left: 128px;
+        top: 128px;
+    }
+}
