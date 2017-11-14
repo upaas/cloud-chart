@@ -1,0 +1,60 @@
+{
+  "name": "talent-ui-webim",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "lihe3",
+    "email": "lihe3@beisen.com"
+  },
+  "devDependencies": {
+    "@beisen/talent-ui-jest-utils": "^1.0.4",
+    "@beisen/talent-ui-webpack-config": "^1.4.5",
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "jest": "^20.0.4",
+    "preact": "^8.2.1",
+    "preact-compat": "^3.17.0",
+    "react": "^15.6.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "start": "dev_server=on webpack-dev-server --config webpack.example.config.js",
+    "build": "webpack --config webpack.config.js",
+    "build-prod": "NODE_ENV=production webpack",
+    "analysis": "analyzer_server=on yarn run build",
+    "prepublish": "yarn build",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "preact": "^8.2.1",
+    "preact-compat": "^3.17.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "dependencies": {
+    "@beisen/base-button": "^0.1.24",
+    "@beisen/common-mount": "^0.0.32",
+    "@beisen/es6-promise-debounce": "^0.0.3",
+    "@beisen/loading": "^0.1.39",
+    "@beisen/search": "^0.1.57",
+    "@beisen/tab-component": "^0.1.73",
+    "@beisen/talent-ui-component-webpack-config": "^1.0.3",
+    "@beisen/text-box": "^0.1.74",
+    "@beisen/tool-tip": "^0.1.35",
+    "@beisen/user-selector": "^0.1.95",
+    "es6-promise-debounce": "^1.0.1",
+    "global": "^4.3.2",
+    "pinyin": "^2.8.3",
+    "prop-types": "^15.5.10",
+    "react-draggable": "^3.0.3"
+  }
+}

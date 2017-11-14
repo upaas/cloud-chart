@@ -1,0 +1,6 @@
+src/
+node_modules/
+.gitignore
+example/
+yarn.lock
+.npmignore
